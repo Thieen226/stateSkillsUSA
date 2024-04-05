@@ -1,0 +1,45 @@
+*{
+    border: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f3f3f3;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.name{
+    background-color: #007482 ;
+    height: 15vh;
+    text-align: center;
+    font-size: 24px;
+}
+.menu{
+    background-color: #A0CF5F;
+    height: 50px;
+}
+.nav-link ul li a{
+    padding: 10%;
+}
+.description{
+    margin: 5%;
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+

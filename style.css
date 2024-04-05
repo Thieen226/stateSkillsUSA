@@ -38,7 +38,8 @@ a{
     vertical-align: middle;
 }
 .nav-link ul li:hover{
-    background-color:#f5ffe8;
+    font-size: 18px;
+    font-weight: bold;
 }
 .description{
     margin: 5%;
@@ -65,4 +66,39 @@ img{
 }
 .vision{
     background-color: #bfd99a;
+}
+.join{
+    font-size: 18px;
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+}
+
+
+@media screen and (min-width: 760px){
+    .aboutFoundation{
+        display: flex;
+        margin: 20px;
+    }
+    .description{
+        width: 80%;
+    }
+    img{
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    .aboutUs{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .box{
+        display: flex;
+    }
+    .mission, .vision, .impact{
+        width: 30%;
+        height: 50%;
+    }
 }
